@@ -41,6 +41,10 @@ dependencies:
   path_provider: ^2.0.14
   path: ^1.8.2
   cloud_firestore: ^4.5.3
+  flutter_launcher_icons: ^0.13.1
+  image_picker: ^0.8.7+4
+  google_fonts: ^4.0.4
+  flutter_image_filters: ^0.0.15
 
 dev_dependencies:
   flutter_test:
@@ -64,6 +68,10 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/images/android-large-1.png
+    - assets/images/google-color-icon-1.png
+    - assets/images/rectangle-4.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
